@@ -51,7 +51,7 @@ object Scala_Problem_3 {
     var sq5 = sparkSession.sql(sqlText = "select Count(Email),Year_of_Joining FROM emp_business Group By(Year_of_Joining) ORDER by (Year_of_joining)")
     sq5.show()
 
-    var sq6 = sparkSession.sql(sqlText = "SELECT * FROM employees WHERE to_char(hire_date, '')='jan';")
+   
 
   }
 
